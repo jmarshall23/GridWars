@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d4a9c379-4e75-46a8-a63d-dbf5d1b7a10c}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\matlib">
+      <UniqueIdentifier>{e9d1572f-a9bb-48a4-844e-1dbc9b7d4e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="picmodel">
+      <UniqueIdentifier>{9d849c73-cf49-4b14-bdf8-dc8409636a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="picmodel\lwo">
+      <UniqueIdentifier>{61b5b85f-370e-45e3-8a2e-4c5bd5ce9f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5">
+      <UniqueIdentifier>{310e3949-0dad-4d77-b9c0-8e24ffc6f8b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmdlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="imagelib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="inout.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="polylib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="scriplib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="threads.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="unzip.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vfs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib\bbox.c">
+      <Filter>src\matlib</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib\m4x4.c">
+      <Filter>src\matlib</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib\mathlib.c">
+      <Filter>src\matlib</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib\ray.c">
+      <Filter>src\matlib</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\picointernal.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\picomodel.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\picomodules.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_3ds.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_ase.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_fm.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_lwo.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_md2.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_md3.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_mdc.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_ms3d.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_obj.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\pm_terrain.c">
+      <Filter>picmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\clip.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\envelope.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\list.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\lwio.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\lwo2.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\lwob.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\pntspols.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\surface.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\vecmath.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="picomodel\lwo\vmap.c">
+      <Filter>picmodel\lwo</Filter>
+    </ClCompile>
+    <ClCompile Include="md5lib\md4.c">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="md5lib\md5lib.c">
+      <Filter>md5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="picomodel\picointernal.h">
+      <Filter>picmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="picomodel\pm_fm.h">
+      <Filter>picmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="picomodel\lwo\lwo2.h">
+      <Filter>picmodel\lwo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
